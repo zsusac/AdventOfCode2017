@@ -86,18 +86,6 @@ function calculateValue (point) {
   let pointDownLeft = [point[0] - 1, point[1] - 1]
   let pointDownRight = [point[0] + 1, point[1] - 1]
 
-  /*
-  console.log(pointRight)
-  console.log(pointLeft)
-  console.log(pointUp)
-  console.log(pointDown)
-  console.log(pointUpRight)
-  console.log(pointUpLeft)
-  console.log(pointDownLeft)
-  console.log(pointDownRight)
-  console.log("\n\n")
-  */
-
   let sum = 0
 
   for (let index = 0; index < grid.length; index++) {
