@@ -28,6 +28,6 @@ lineReader.on('close', (line) => {
   console.log(validCount)
 })
 
-function sortAlphabets(word) {
+function sortAlphabets (word) {
   return word.split('').sort().join('')
 }
